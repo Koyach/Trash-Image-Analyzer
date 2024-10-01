@@ -61,7 +61,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border; /* 修正: 'border-border'を 'border' に変更 */
   }
   body {
     @apply bg-background text-foreground;
