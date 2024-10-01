@@ -61,9 +61,10 @@
 
 @layer base {
   * {
-    @apply border; /* 修正: 'border-border'を 'border' に変更 */
+    @apply border; /* 修正済み */
   }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground; /* カスタムクラスを使用 */
   }
 }
